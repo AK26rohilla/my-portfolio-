@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #444;
+}
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+nav {
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffdd57;
+}
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+section h2 {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+}
+section p, section ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    color: #0056b3;
+    margin: 0 0 10px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
